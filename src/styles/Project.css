@@ -1,0 +1,56 @@
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+    margin-top: 20vh;
+}
+
+.project-glance {
+    grid-column: 1 / 3;
+}
+
+.project-content {
+    grid-column: 3 / 6;
+}
+
+.project-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.project-subheader {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.project-details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 3rem;
+}
+
+.detail-item h5 {
+    font-size: 1rem;
+    margin-bottom: 0.1rem;
+    text-decoration: underline;
+    font-family: "NeueMachina_Medium", sans-serif;
+    text-transform: uppercase;
+}
+
+.detail-item p {
+    font-family: "LibreFranklin_Regular", sans-serif;
+}
+
+
+.project-description p {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    font-family: "LibreFranklin_Regular", sans-serif;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+}

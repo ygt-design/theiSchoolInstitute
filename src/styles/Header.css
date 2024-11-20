@@ -1,0 +1,29 @@
+
+.headerContainer {
+    margin-top: 28vh;
+    position: relative;
+    height: 65vh;
+    border-bottom: 1px solid black;
+}
+
+.headerEnglish h1{
+    grid-column: 2 /6;
+}
+
+.headerFrench h1{
+    grid-column: 1 /6;
+}
+
+.headerText h4{
+    grid-column: 1 / 6;
+    grid-column-end: 4;
+    margin-top: 1rem;
+}
+
+canvas{
+    position: absolute;
+    top: -20vh;
+    right: 0;
+    z-index: -1;
+}
+

@@ -1,0 +1,17 @@
+.education-container {
+    margin-top: 10vh;
+    height: 100%;
+    padding-bottom: 10vh;
+}
+
+.education-gallery {
+    width: 100%;
+}
+
+.education-text {
+    margin-bottom: 10vh;
+    font-size: 1.2rem;
+    font-family: 'LibreFranklin_Regular', sans-serif;
+    line-height: 1.5;
+}
+

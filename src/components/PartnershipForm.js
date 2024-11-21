@@ -60,7 +60,7 @@ function PartnershipForm() {
                 <textarea
                   id="description"
                   name="description"
-                  placeholder="Enter details about your inquiry"
+                  placeholder="Your message"
                   rows="12"
                   required
                 ></textarea>

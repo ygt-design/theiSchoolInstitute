@@ -14,7 +14,7 @@ function Header() {
 
       p.setup = () => {
         // make the canvas size responsive
-        p.createCanvas(600, 700);
+        p.createCanvas(700, 700);
         p.angleMode(p.DEGREES);
         p.colorMode(p.RGB, 255);
         p.background(255);
@@ -39,7 +39,7 @@ function Header() {
         let x2 = (p.noise(t + 0.05) - 0.5) * p.width;
         let y2 = (p.noise(t + 10 + 0.05) - 0.5) * p.height;
 
-        t += 0.012;
+        t += 0.01;
 
         let totalColors = brandColors.length;
         let colorSpeed = 0.5;

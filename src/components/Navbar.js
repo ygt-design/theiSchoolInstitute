@@ -67,7 +67,7 @@ function Navbar() {
       </div>
 
       <div className={`menu-items ${menuOpen ? "show" : ""}`}>
-        <a
+        {/* <a
           href="#header"
           onClick={(e) => {
             e.preventDefault();
@@ -75,7 +75,7 @@ function Navbar() {
           }}
         >
           Home
-        </a>
+        </a> */}
         <a
           href="#about"
           onClick={(e) => {

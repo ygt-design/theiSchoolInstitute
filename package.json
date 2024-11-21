@@ -1,5 +1,5 @@
 {
-  "homepage": "http://ygt-design.github.io/School_Web",
+  "homepage": "https://ygt-design.github.io/iSchool_Web",
   "name": "ischool_web",
   "version": "0.1.0",
   "private": true,
@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && cp build/index.html build/404.html",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",

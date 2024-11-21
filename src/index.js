@@ -7,15 +7,15 @@ import reportWebVitals from "./reportWebVitals";
 import "./styles/global.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
   <React.StrictMode>
-    <BrowserRouter
-      future={{ v7_startTransition: true, v7_relativeSplatPath: true }}
-    >
+    {/* Add the basename to handle deployment in a subdirectory */}
+    <BrowserRouter basename="/iSchool_Web">
       <App />
     </BrowserRouter>
   </React.StrictMode>
 );
 
-// log performance metrics
+// Log performance metrics
 reportWebVitals();

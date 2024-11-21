@@ -17,7 +17,8 @@ function App() {
   return (
     <div className="wrapper">
       <Navbar />
-      <ScrollToTop /> {/* Ensure this is added here */}
+      {/* Ensure ScrollToTop is added */}
+      <ScrollToTop />
       <Routes>
         {/* Home Page */}
         <Route
@@ -34,9 +35,9 @@ function App() {
               </div>
               <Header />
               <About />
-              <People />
-              <SectionDivider imageClass="divider-people" height="60vh" />
               <Research />
+              <SectionDivider imageClass="divider-people" height="60vh" />
+              <People />
               <SectionDivider imageClass="divider-research" height="70vh" />
               <Education />
               <PartnershipForm />
@@ -51,6 +52,9 @@ function App() {
           element={<Project1 />}
         />
         <Route path="/research/norc-innovation-centre" element={<Project2 />} />
+
+        {/* Wildcard Route for 404 */}
+        <Route path="*" element={<h1>404 - Page Not Found</h1>} />
       </Routes>
     </div>
   );

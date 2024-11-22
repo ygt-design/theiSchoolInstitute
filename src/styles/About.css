@@ -33,5 +33,25 @@
     text-indent: calc((100% + 20px) / 4); 
 }
 
+@media screen and (max-width: 768px){
+    /* .about-text{
+        text-indent: 0;
+    } */
+    
+
+    .about-image-container{
+        position: relative;
+        width: 100%;
+        display: block;
+    }
+
+    .about-mask{
+        position: absolute;
+        top: 0;
+        margin-left: calc(50% + 20px);
+        height: 15%;
+        width: calc(50% - 20px);
+    }
+}
 
 

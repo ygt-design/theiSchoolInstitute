@@ -36,9 +36,9 @@ function App() {
               <Header />
               <About />
               <Research />
-              <SectionDivider imageClass="divider-people" height="60vh" />
+              <SectionDivider imageClass="divider-people" />
               <People />
-              <SectionDivider imageClass="divider-research" height="70vh" />
+              <SectionDivider imageClass="divider-research" />
               <Education />
               <PartnershipForm />
               <Footer />

@@ -4,13 +4,39 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
 }
 
 .divider-people{
     background-image: url("../assets/images/sectionDividers/dividerPeople.jpg");
+    height: 60vh;
 }
 
 .divider-research{
     background-image: url("../assets/images/sectionDividers/researchDivider.jpg");
+    height: 70vh;
+}
+
+@media screen and (max-width: 768px){
+    .section-divider{
+        margin: 0 -20px 0 -20px;
+        height: 35vh;
+    }
+
+    .divider-research{
+        background-position: left;
+    }
+
+    
+}
+
+@media screen and (max-width: 1024px){
+    .section-divider{
+        margin: 0 -20px 0 -20px;
+        height: 50vh;
+    }
+
+    .divider-research{
+        background-position: left;
+    }
 }

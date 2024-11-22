@@ -18,6 +18,7 @@
     padding: 0;
     box-sizing: border-box;
     color: black;
+    scrollbar-width: none;
 }
 
 html{
@@ -80,7 +81,7 @@ a{
 }
 
 .backgroundGrid .column{
-    /* display: none; */
+    display: none;
     width: 100%;
     height: 100%;
     border: 1px solid rgb(0, 0, 0);
@@ -109,4 +110,83 @@ a{
     position: sticky;
     top: 100px;
     height: fit-content;
+}
+
+/*  */
+
+@media screen and (max-width: 768px){
+    body{
+        padding: 0 20px 0 20px;
+    }
+
+    h1{
+        font-size: 10vw;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    h4{
+        font-size: 16px;
+    }
+
+    h5{
+        font-size: 16px;
+    }
+
+    .backgroundGrid{
+        display: none;
+    }
+
+    .section-title{
+        position: static;
+    }
+
+    .content-section{
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .content-text{
+        grid-column: 1 / 7;
+    }
+}
+
+/* create media screen for tablet */
+@media screen and (max-width: 1024px){
+    body{
+        padding: 0 20px 0 20px;
+    }
+
+    h1{
+        font-size: 10vw;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    h4{
+        font-size: 16px;
+    }
+
+    h5{
+        font-size: 16px;
+    }
+
+    .backgroundGrid{
+        display: none;
+    }
+
+    .section-title{
+        position: static;
+    }
+
+    .content-section{
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .content-text{
+        grid-column: 1 / 7;
+    }
 }

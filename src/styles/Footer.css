@@ -63,3 +63,18 @@
     background-color: black;
     color: white;
 }
+
+@media screen and (max-width: 768px) {
+    .footer-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 5vh;
+    }
+
+    .footer-logo img {
+        width: 20%;
+    }
+
+    .footer-menu {
+        margin-top: 0;
+    }
+}

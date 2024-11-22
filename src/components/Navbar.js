@@ -59,6 +59,8 @@ function Navbar() {
           className={`school-name ${
             isScrolled || menuOpen ? "school-name-hidden" : ""
           }`}
+          onClick={handleHomeClick}
+          style={{ cursor: "pointer" }} // Cursor to indicate it's clickable
         >
           the <br />
           iSchool <br />

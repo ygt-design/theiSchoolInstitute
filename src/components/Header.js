@@ -13,8 +13,8 @@ function Header() {
       let brandColors;
 
       p.setup = () => {
-        // make the canvas size responsive
-        p.createCanvas(700, 700);
+        // Initial canvas size
+        p.createCanvas(550, 700);
         p.angleMode(p.DEGREES);
         p.colorMode(p.RGB, 255);
         p.background(255);
@@ -34,10 +34,10 @@ function Header() {
 
         p.translate(p.width / 2, p.height / 2);
 
-        let x1 = (p.noise(t) - 0.5) * p.width;
-        let y1 = (p.noise(t + 10) - 0.5) * p.height;
-        let x2 = (p.noise(t + 0.05) - 0.5) * p.width;
-        let y2 = (p.noise(t + 10 + 0.05) - 0.5) * p.height;
+        let x1 = ((p.noise(t) - 0.5) * p.width) / 1.2;
+        let y1 = ((p.noise(t + 10) - 0.5) * p.height) / 1.2;
+        let x2 = ((p.noise(t + 0.05) - 0.5) * p.width) / 1.2;
+        let y2 = ((p.noise(t + 10 + 0.05) - 0.5) * p.height) / 1.2;
 
         t += 0.01;
 
@@ -63,6 +63,13 @@ function Header() {
           p.line(x1, y1, x2, y2);
           p.pop();
         }
+      };
+
+      p.windowResized = () => {
+        // Adjust the canvas size based on window width but maintain previous positioning
+        const newWidth = Math.min(600, p.windowWidth);
+        const newHeight = Math.min(700, p.windowHeight);
+        p.resizeCanvas(newWidth, newHeight);
       };
     };
 

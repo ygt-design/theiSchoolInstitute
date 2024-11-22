@@ -51,7 +51,7 @@ function PartnershipForm() {
                   required
                 />
               </div>
-              <button type="submit" className="submit-button">
+              <button type="submit" className="submit-button desktop-submit">
                 Submit
               </button>
             </div>
@@ -65,6 +65,9 @@ function PartnershipForm() {
                   required
                 ></textarea>
               </div>
+              <button type="submit" className="submit-button mobile-submit">
+                Submit
+              </button>
             </div>
           </form>
         </div>

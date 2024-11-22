@@ -43,4 +43,25 @@ img{
     margin-right: 10px;
 }
 
+@media screen and (max-width: 990px){
+
+    .person-name{
+        width: 100%;
+    }
+
+    .person-role{
+        margin-bottom: 20px;
+    }
+
+    .person-bio{
+        font-size: 1rem;
+    }
+
+    .person-email{
+        font-size: 0.9rem;
+    }
+
+
+
+}
     

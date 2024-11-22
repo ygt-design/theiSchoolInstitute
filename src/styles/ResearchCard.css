@@ -53,3 +53,10 @@
     color: white;
     background-color: black;
 }
+
+@media screen and (max-width: 768px) {
+    .research-card {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}

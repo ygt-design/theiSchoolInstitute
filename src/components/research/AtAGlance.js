@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/AtAGlance.css";
+import "../../styles/Project.css";
 
 function AtAGlance({ points, backgroundColor }) {
   return (

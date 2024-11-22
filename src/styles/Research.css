@@ -12,15 +12,9 @@
     margin-bottom: 10vh;
 }
 
-
-.project1 {
-    /* background-image: url("../assets/images/research/ai-for-social-good.jpg"); */
-}
-
-.project2 {
-    /* background-image: url("../assets/images/research/data-ethics.jpg"); */
-}
-
-.project3 {
-    /* background-image: url("../assets/images/research/sustainable-design.jpg"); */
+@media screen and (max-width: 768px) {
+    .research-gallery {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
 }

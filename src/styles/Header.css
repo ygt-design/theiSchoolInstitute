@@ -25,5 +25,45 @@ canvas{
     top: -20vh;
     right: 0;
     z-index: -1;
+    /* border: 1px solid red; */
 }
 
+@media screen and (max-width: 768px){
+    .headerContainer{
+        margin-top: 25vh;
+        height: 95vh;
+    }
+
+    .headerText h4{
+        grid-column: 1 / 6;
+        grid-column-end: 7;
+        margin-top: 1rem;
+    }
+
+    canvas{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 20vh;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .headerContainer{
+        margin-top: 25vh;
+        height: 100vh;
+    }
+
+    .headerText h4{
+        grid-column: 1 / 6;
+        grid-column-end: 7;
+        margin-top: 1rem;
+    }
+
+    canvas{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 30vh;
+    }
+}

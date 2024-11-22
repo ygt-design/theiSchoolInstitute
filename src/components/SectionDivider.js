@@ -1,10 +1,8 @@
 import React from "react";
 import "../styles/SectionDivider.css";
 
-function SectionDivider({ imageClass, height = "50vh" }) {
-  return (
-    <div className={`section-divider ${imageClass}`} style={{ height }}></div>
-  );
+function SectionDivider({ imageClass }) {
+  return <div className={`section-divider ${imageClass}`}></div>;
 }
 
 export default SectionDivider;

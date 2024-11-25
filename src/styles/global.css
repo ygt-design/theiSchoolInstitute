@@ -40,7 +40,7 @@ h1{
 
 h2{
     text-transform: uppercase;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: normal;
     font-family: "NeueMachina_Medium", sans-serif;
 }
@@ -141,6 +141,7 @@ a{
 
     .section-title{
         position: static;
+        font-size: 1.5rem;
     }
 
     .content-section{

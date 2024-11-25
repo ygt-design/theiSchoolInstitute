@@ -48,7 +48,7 @@ canvas{
     }
 }
 
-@media screen and (max-width: 1024px){
+@media (max-width: 1024px) and (min-width: 768px){
     .headerContainer{
         margin-top: 25vh;
         height: 100vh;
@@ -64,6 +64,6 @@ canvas{
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        top: 30vh;
+        top: 33vh;
     }
 }

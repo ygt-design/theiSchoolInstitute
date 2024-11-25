@@ -5,7 +5,10 @@ function About() {
   return (
     <section className="about-section" id="about">
       <div className="about-container content-section">
-        <h2 className="section-title"> About </h2>
+        <h2 className="section-title">
+          {" "}
+          The <br /> Institute{" "}
+        </h2>
         <div className="content-text">
           <h5 className="about-text">
             The iSchool Institute accelerates academic and industry excellence

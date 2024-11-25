@@ -6,7 +6,10 @@ function Education() {
   return (
     <section className="education-section" id="education">
       <div className="education-container content-section">
-        <h2 className="section-title">Education</h2>
+        <h2 className="section-title">
+          {" "}
+          Professional Education And Certification
+        </h2>
         <div className="content-text">
           <div className="education-gallery">
             <EducationCard

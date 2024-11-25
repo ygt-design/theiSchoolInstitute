@@ -6,7 +6,9 @@ function Research() {
   return (
     <section className="research-section" id="research">
       <div className="research-container content-section">
-        <h2 className="section-title">Research</h2>
+        <h2 className="section-title">
+          Research <br /> Translation <br /> Projects
+        </h2>
         <div className="content-text">
           <h5 className="about-text research-text">
             Our research focuses on transforming information into actionable

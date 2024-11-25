@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/iSchool_Web/static/css/main.0e7c0781.css",
-    "main.js": "/iSchool_Web/static/js/main.d2e1da0d.js",
+    "main.css": "/iSchool_Web/static/css/main.688b28f8.css",
+    "main.js": "/iSchool_Web/static/js/main.982016ae.js",
     "static/js/453.185f931b.chunk.js": "/iSchool_Web/static/js/453.185f931b.chunk.js",
     "static/media/researchDivider.jpg": "/iSchool_Web/static/media/researchDivider.06c747c6c7128523a716.jpg",
     "static/media/carlaConehoGonzales.jpg": "/iSchool_Web/static/media/carlaConehoGonzales.f3066b453adc29ebce21.jpg",
@@ -19,12 +19,12 @@
     "static/media/locationIcon.svg": "/iSchool_Web/static/media/locationIcon.39977b59a173a52230bc429305169189.svg",
     "index.html": "/iSchool_Web/index.html",
     "static/media/contactIcon.svg": "/iSchool_Web/static/media/contactIcon.69b573e225cbc8cfc3c8223cb58d06d3.svg",
-    "main.0e7c0781.css.map": "/iSchool_Web/static/css/main.0e7c0781.css.map",
-    "main.d2e1da0d.js.map": "/iSchool_Web/static/js/main.d2e1da0d.js.map",
+    "main.688b28f8.css.map": "/iSchool_Web/static/css/main.688b28f8.css.map",
+    "main.982016ae.js.map": "/iSchool_Web/static/js/main.982016ae.js.map",
     "453.185f931b.chunk.js.map": "/iSchool_Web/static/js/453.185f931b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e7c0781.css",
-    "static/js/main.d2e1da0d.js"
+    "static/css/main.688b28f8.css",
+    "static/js/main.982016ae.js"
   ]
 }

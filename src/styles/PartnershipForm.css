@@ -41,13 +41,13 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-bottom: 3vh;
+    margin-bottom: -10vh;
 }
 
 .mail-icon {
     width: 24px;
     height: 24px;
-    margin-bottom: 10vh;
+    margin-top: -10vh;
 
 }
 

@@ -54,16 +54,21 @@ canvas{
         height: 100vh;
     }
 
+    .headerContainer h1{
+        font-size: 10vw;
+    }
+
     .headerText h4{
         grid-column: 1 / 6;
         grid-column-end: 7;
         margin-top: 1rem;
+        font-size: 1.3rem;
     }
 
     canvas{
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        top: 33vh;
+        top: 30vh;
     }
 }

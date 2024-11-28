@@ -53,14 +53,14 @@ function Navbar() {
             isScrolled ? "logo-scaled" : ""
           }`}
           onClick={handleHomeClick}
-          style={{ cursor: "pointer" }} // Cursor to indicate it's clickable
+          style={{ cursor: "pointer" }}
         />
         <span
           className={`school-name ${
-            isScrolled || menuOpen ? "school-name-hidden" : ""
+            isScrolled && !menuOpen ? "school-name-hidden" : ""
           }`}
           onClick={handleHomeClick}
-          style={{ cursor: "pointer" }} // Cursor to indicate it's clickable
+          style={{ cursor: "pointer" }}
         >
           the <br />
           iSchool <br />
@@ -69,15 +69,6 @@ function Navbar() {
       </div>
 
       <div className={`menu-items ${menuOpen ? "show" : ""}`}>
-        {/* <a
-          href="#header"
-          onClick={(e) => {
-            e.preventDefault();
-            handleHomeClick();
-          }}
-        >
-          Home
-        </a> */}
         <a
           href="#about"
           onClick={(e) => {

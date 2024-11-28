@@ -6,8 +6,23 @@ import ischoolStaticLogo from "../assets/images/logos/ischoolStaticLogo.svg";
 function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   const navigate = useNavigate();
+
+  // Check if the screen is mobile
+  useEffect(() => {
+    const updateIsMobile = () => {
+      setIsMobile(window.innerWidth <= 768); // Adjust breakpoint as needed
+    };
+
+    updateIsMobile(); // Run on mount
+    window.addEventListener("resize", updateIsMobile); // Update on resize
+
+    return () => {
+      window.removeEventListener("resize", updateIsMobile);
+    };
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -57,7 +72,11 @@ function Navbar() {
         />
         <span
           className={`school-name ${
-            isScrolled && !menuOpen ? "school-name-hidden" : ""
+            isMobile && menuOpen
+              ? "always-visible" // Special class for mobile when menu is open
+              : isScrolled
+              ? "school-name-hidden"
+              : ""
           }`}
           onClick={handleHomeClick}
           style={{ cursor: "pointer" }}

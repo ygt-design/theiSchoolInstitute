@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/theiSchoolInstitute/static/css/main.8cbcfdb5.css",
+    "main.js": "/theiSchoolInstitute/static/js/main.34aba267.js",
+    "static/js/453.185f931b.chunk.js": "/theiSchoolInstitute/static/js/453.185f931b.chunk.js",
+    "static/media/researchDivider.jpg": "/theiSchoolInstitute/static/media/researchDivider.06c747c6c7128523a716.jpg",
+    "static/media/carlaConehoGonzales.jpg": "/theiSchoolInstitute/static/media/carlaConehoGonzales.f3066b453adc29ebce21.jpg",
+    "static/media/dividerPeople.jpg": "/theiSchoolInstitute/static/media/dividerPeople.13275bb930bf10808646.jpg",
+    "static/media/chrisFerguson.jpg": "/theiSchoolInstitute/static/media/chrisFerguson.c8542c62c173729057c7.jpg",
+    "static/media/about.jpg": "/theiSchoolInstitute/static/media/about.d5ef08895a781e6e00f0.jpg",
+    "static/media/norc_one.png": "/theiSchoolInstitute/static/media/norc_one.81f85c016004870d8df8.png",
+    "static/media/norc_three.png": "/theiSchoolInstitute/static/media/norc_three.275d393d0ec18af3d04f.png",
+    "static/media/LibreFranklin-VariableFont_wght.ttf": "/theiSchoolInstitute/static/media/LibreFranklin-VariableFont_wght.01a28f6e09c7e5f92706.ttf",
+    "static/media/norc_two.png": "/theiSchoolInstitute/static/media/norc_two.365655c22564b2c5f8f7.png",
+    "static/media/PPNeueMachina-PlainRegular.otf": "/theiSchoolInstitute/static/media/PPNeueMachina-PlainRegular.c1fe9e8fedaaf2eed971.otf",
+    "static/media/PPNeueMachina-PlainMedium.woff": "/theiSchoolInstitute/static/media/PPNeueMachina-PlainMedium.45162d9999266d8b7a16.woff",
+    "static/media/ischoolStaticLogo.svg": "/theiSchoolInstitute/static/media/ischoolStaticLogo.f812aa9e7a2064931fcb7df4c706b783.svg",
+    "static/media/mail.svg": "/theiSchoolInstitute/static/media/mail.58656143e5f6e094d41598397fe1b861.svg",
+    "static/media/locationIcon.svg": "/theiSchoolInstitute/static/media/locationIcon.39977b59a173a52230bc429305169189.svg",
+    "index.html": "/theiSchoolInstitute/index.html",
+    "static/media/contactIcon.svg": "/theiSchoolInstitute/static/media/contactIcon.69b573e225cbc8cfc3c8223cb58d06d3.svg",
+    "main.8cbcfdb5.css.map": "/theiSchoolInstitute/static/css/main.8cbcfdb5.css.map",
+    "main.34aba267.js.map": "/theiSchoolInstitute/static/js/main.34aba267.js.map",
+    "453.185f931b.chunk.js.map": "/theiSchoolInstitute/static/js/453.185f931b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8cbcfdb5.css",
+    "static/js/main.34aba267.js"
+  ]
+}

@@ -15,6 +15,7 @@ function People() {
               role="Director"
               bio="Chris Ferguson is the Director of the iSchool Institute. In this role, he partners with industry partners and academics to design and deliver professional education and research translation projects. Chris is a professor at the Faculty of Information and the founder of Bridgeable, a globally recognized design studio which he sold to employees in 2024. He has published numerous articles and is co-author of Redesigning Value (University of Toronto Press, 2025). Chris’ work has received awards from the Design Management Institute, Fast Company and Service Design Network and he is the proud recipient of the Excellence in Teaching award."
               email="christopher.ferguson@utoronto.ca"
+              className="people-card-chris"
             />
             <PeopleCard
               imageClass="carla"

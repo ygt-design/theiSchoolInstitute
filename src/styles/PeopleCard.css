@@ -43,7 +43,7 @@ img{
     margin-right: 10px;
 }
 
-@media screen and (max-width: 990px){
+@media screen and (max-width: 770px){
 
     .person-name{
         width: 100%;
@@ -59,6 +59,11 @@ img{
 
     .person-email{
         font-size: 0.9rem;
+    }
+
+    /* select the last .person-card */
+    .person-card:last-child{
+        margin-top: 7vh;
     }
 
 

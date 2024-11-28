@@ -161,17 +161,10 @@
   .hamburger-menu.open .hamburger span:last-child {
     transform: rotate(-45deg) translate(5px, -5px);
   }
-  
-  .hamburger-menu-overlay {
-    border: 1px solid blue;
-  }
-  
+
   .hamburger-menu-overlay.active {
     display: block;
-    border: 1px solid blue;
   }
-
-
 
 
 @media (max-width: 768px) {

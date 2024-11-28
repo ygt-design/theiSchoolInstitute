@@ -34,9 +34,9 @@
 }
 
 @media screen and (max-width: 768px){
-    /* .about-text{
+    .about-text{
         text-indent: 0;
-    } */
+    }
     
 
     .about-image-container{

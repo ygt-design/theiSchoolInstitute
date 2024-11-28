@@ -6,8 +6,23 @@ import ischoolStaticLogo from "../assets/images/logos/ischoolStaticLogo.svg";
 function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   const navigate = useNavigate();
+
+  // Check if the screen is mobile
+  useEffect(() => {
+    const updateIsMobile = () => {
+      setIsMobile(window.innerWidth <= 768); // Adjust breakpoint as needed
+    };
+
+    updateIsMobile(); // Run on mount
+    window.addEventListener("resize", updateIsMobile); // Update on resize
+
+    return () => {
+      window.removeEventListener("resize", updateIsMobile);
+    };
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -53,14 +68,18 @@ function Navbar() {
             isScrolled ? "logo-scaled" : ""
           }`}
           onClick={handleHomeClick}
-          style={{ cursor: "pointer" }} // Cursor to indicate it's clickable
+          style={{ cursor: "pointer" }}
         />
         <span
           className={`school-name ${
-            isScrolled || menuOpen ? "school-name-hidden" : ""
+            isMobile && menuOpen
+              ? "always-visible" // Special class for mobile when menu is open
+              : isScrolled
+              ? "school-name-hidden"
+              : ""
           }`}
           onClick={handleHomeClick}
-          style={{ cursor: "pointer" }} // Cursor to indicate it's clickable
+          style={{ cursor: "pointer" }}
         >
           the <br />
           iSchool <br />
@@ -69,15 +88,6 @@ function Navbar() {
       </div>
 
       <div className={`menu-items ${menuOpen ? "show" : ""}`}>
-        {/* <a
-          href="#header"
-          onClick={(e) => {
-            e.preventDefault();
-            handleHomeClick();
-          }}
-        >
-          Home
-        </a> */}
         <a
           href="#about"
           onClick={(e) => {

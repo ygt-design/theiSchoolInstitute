@@ -22,7 +22,7 @@ function PartnershipForm() {
               christopher.ferguson@utoronto.ca
             </a>
           </div>
-          <form className="partnership-form">
+          {/* <form className="partnership-form">
             <div className="formLeftSide">
               <div className="form-group">
                 <input
@@ -69,7 +69,7 @@ function PartnershipForm() {
                 Submit
               </button>
             </div>
-          </form>
+          </form> */}
         </div>
       </div>
     </section>

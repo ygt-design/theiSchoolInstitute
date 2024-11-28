@@ -27,6 +27,7 @@
 
 .partnership-container {
     margin: 0 auto;
+    margin-bottom: -10vh;
 }
 
 .partnership-description {
@@ -41,7 +42,6 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-bottom: 3vh;
 }
 
 .mail-icon {

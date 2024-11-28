@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     {/* Add the basename to handle deployment in a subdirectory */}
-    <BrowserRouter basename="/iSchool_Web">
+    <BrowserRouter basename="/theiSchoolInstitute">
       <App />
     </BrowserRouter>
   </React.StrictMode>

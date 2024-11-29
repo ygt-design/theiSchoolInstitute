@@ -11,7 +11,6 @@
     background-color: white;
     z-index: 100;
     transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
-    border: 2px solid red;
 }
 
 .navbar.scrolled {
@@ -191,7 +190,6 @@
         padding: 20px;
         gap: 10px;
         z-index: -1;
-        border: 1px solid blue;
         margin-left: -21px;
     }
 

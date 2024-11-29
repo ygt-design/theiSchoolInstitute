@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/theiSchoolInstitute/static/css/main.f9051d5c.css",
+    "main.css": "/theiSchoolInstitute/static/css/main.56638d72.css",
     "main.js": "/theiSchoolInstitute/static/js/main.790bc5cb.js",
     "static/js/453.185f931b.chunk.js": "/theiSchoolInstitute/static/js/453.185f931b.chunk.js",
     "static/media/researchDivider.jpg": "/theiSchoolInstitute/static/media/researchDivider.06c747c6c7128523a716.jpg",
@@ -19,12 +19,12 @@
     "static/media/locationIcon.svg": "/theiSchoolInstitute/static/media/locationIcon.39977b59a173a52230bc429305169189.svg",
     "index.html": "/theiSchoolInstitute/index.html",
     "static/media/contactIcon.svg": "/theiSchoolInstitute/static/media/contactIcon.69b573e225cbc8cfc3c8223cb58d06d3.svg",
-    "main.f9051d5c.css.map": "/theiSchoolInstitute/static/css/main.f9051d5c.css.map",
+    "main.56638d72.css.map": "/theiSchoolInstitute/static/css/main.56638d72.css.map",
     "main.790bc5cb.js.map": "/theiSchoolInstitute/static/js/main.790bc5cb.js.map",
     "453.185f931b.chunk.js.map": "/theiSchoolInstitute/static/js/453.185f931b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9051d5c.css",
+    "static/css/main.56638d72.css",
     "static/js/main.790bc5cb.js"
   ]
 }

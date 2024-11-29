@@ -12,11 +12,11 @@ function Navbar() {
 
   useEffect(() => {
     const updateIsMobile = () => {
-      setIsMobile(window.matchMedia("(max-width: 768px)").matches);
+      setIsMobile(window.innerWidth <= 768);
     };
 
-    updateIsMobile(); // Run on mount
-    window.addEventListener("resize", updateIsMobile); // Update on resize
+    updateIsMobile();
+    window.addEventListener("resize", updateIsMobile);
 
     return () => {
       window.removeEventListener("resize", updateIsMobile);
@@ -34,6 +34,17 @@ function Navbar() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  useEffect(() => {
+    console.log(
+      "isMobile:",
+      isMobile,
+      "menuOpen:",
+      menuOpen,
+      "isScrolled:",
+      isScrolled
+    );
+  }, [isMobile, menuOpen, isScrolled]);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -71,11 +82,15 @@ function Navbar() {
         />
         <span
           className={`school-name ${
-            isMobile && menuOpen
-              ? "always-visible" // Special class for mobile when menu is open
+            isMobile
+              ? menuOpen
+                ? "always-visible" // Show when menu is open on mobile
+                : isScrolled
+                ? "school-name-hidden" // Hide when scrolled on mobile
+                : "" // Default visible state on mobile
               : isScrolled
-              ? "school-name-hidden"
-              : ""
+              ? "school-name-hidden" // Hide on scroll for desktop
+              : "" // Default visible state on desktop
           }`}
           onClick={handleHomeClick}
           style={{ cursor: "pointer" }}

@@ -154,7 +154,7 @@ a{
 }
 
 /* create media screen for tablet */
-@media screen and (max-width: 1024px){
+@media (max-width: 1024px) and (min-width: 768px){
     body{
         padding: 0 20px 0 20px;
     }

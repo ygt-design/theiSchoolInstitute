@@ -115,8 +115,6 @@
     text-underline-offset: 3px;
 }
 
-
-
 .menu-items a {
     margin-right: 3vw;
     transition: color 0.3s cubic-bezier(.075,.82,.165,1);

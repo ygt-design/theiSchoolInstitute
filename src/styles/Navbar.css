@@ -165,6 +165,10 @@
     display: block;
   }
 
+  .school-name.always-visible {
+    opacity: 1 !important;
+}
+
 
 @media (max-width: 768px) {
     .navbar {
@@ -176,8 +180,14 @@
     }
 
     .school-name {
-        font-size: 16px;
-        margin-left: 0;
+        .school-name {
+            margin-left: 0px;
+            font-family: 'NeueMachina_Regular', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            opacity: 1;
+            transition: opacity 0.3s cubic-bezier(.075,.82,.165,1), transform 0.3s cubic-bezier(.075,.82,.165,1);
+        }
     }
 
     .hamburger {

@@ -10,10 +10,9 @@ function Navbar() {
 
   const navigate = useNavigate();
 
-  // Check if the screen is mobile
   useEffect(() => {
     const updateIsMobile = () => {
-      setIsMobile(window.innerWidth <= 768); // Adjust breakpoint as needed
+      setIsMobile(window.matchMedia("(max-width: 768px)").matches);
     };
 
     updateIsMobile(); // Run on mount

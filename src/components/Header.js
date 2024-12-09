@@ -1,9 +1,11 @@
 import React, { useRef, useEffect } from "react";
+import { useNavigate } from "react-router-dom"; // Import useNavigate for navigation
 import p5 from "p5";
 import "../styles/Header.css";
 
 function Header() {
   const sketchRef = useRef();
+  const navigate = useNavigate(); // Initialize navigation hook
 
   useEffect(() => {
     const sketch = (p) => {
@@ -101,6 +103,14 @@ function Header() {
             fosters a community where education, research, and technology
             converge to shape a better future.
           </h4>
+        </div>
+        <div className="buttonContainer">
+          <button
+            className="infoButton"
+            onClick={() => navigate("/shapeGeneratorTool")}
+          >
+            <span>?</span>
+          </button>
         </div>
         <div ref={sketchRef}></div>
       </div>

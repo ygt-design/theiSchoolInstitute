@@ -42,7 +42,6 @@
     font-family: "LibreFranklin_Regular", sans-serif;
 }
 
-
 .project-description p {
     margin-bottom: 1.5rem;
     line-height: 1.6;
@@ -86,6 +85,14 @@
     font-size: 1rem;
     line-height: 1.5;
     margin-bottom: 25px;
+}
+
+.project1{
+    background-image: url("../assets/images/project_one.jpg");
+}
+
+.project2{
+    background-image: url("../assets/images/NORC.jpg");
 }
 
 @media screen and (max-width: 768px) {

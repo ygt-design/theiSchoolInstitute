@@ -1,3 +1,6 @@
+header {
+    position: relative;
+}
 
 .headerContainer {
     margin-top: 28vh;
@@ -6,69 +9,117 @@
     border-bottom: 1px solid black;
 }
 
-.headerEnglish h1{
+.headerEnglish h1 {
     grid-column: 2 /6;
 }
 
-.headerFrench h1{
+.headerFrench h1 {
     grid-column: 1 /6;
 }
 
-.headerText h4{
+.headerText h4 {
     grid-column: 1 / 6;
     grid-column-end: 4;
     margin-top: 1rem;
 }
 
-canvas{
+canvas {
     position: absolute;
     top: -20vh;
     right: 0;
     z-index: -1;
-    /* border: 1px solid red; */
 }
 
-@media screen and (max-width: 768px){
-    .headerContainer{
+.buttonContainer {
+    position: absolute;
+    bottom: 20px; /* Adjust as per your layout */
+    right: 0px; /* Adjust as per your layout */
+    z-index: 10;
+  }
+
+  .buttonContainer span{
+    margin-bottom: -6px;
+    color: white;
+  }
+  
+  .infoButton {
+    background-color: black;
+    color: white;
+    font-size: 1.3rem;
+    font-family: "NeueMachina_Regular", sans-serif;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    border: 1px solid black;
+  }
+  
+  .infoButton:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+  }
+
+  .infoButton:hover span{
+    color: black;
+  }
+  
+
+
+@media screen and (max-width: 768px) {
+    .headerContainer {
         margin-top: 25vh;
         height: 95vh;
     }
 
-    .headerText h4{
+    .headerText h4 {
         grid-column: 1 / 6;
         grid-column-end: 7;
         margin-top: 1rem;
     }
 
-    canvas{
+    canvas {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
         top: 20vh;
     }
+
+    .buttonContainer{
+        display: none;
+    }
 }
 
-@media (max-width: 1024px) and (min-width: 768px){
-    .headerContainer{
+@media (max-width: 1024px) and (min-width: 768px) {
+    .headerContainer {
         margin-top: 25vh;
         height: 100vh;
     }
 
-    .headerContainer h1{
+    .headerContainer h1 {
         font-size: 10vw;
     }
 
-    .headerText h4{
+    .headerText h4 {
         grid-column: 1 / 6;
         grid-column-end: 7;
         margin-top: 1rem;
         font-size: 1.3rem;
     }
 
-    canvas{
+    canvas {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
         top: 30vh;
+    }
+    
+    .buttonContainer{
+        display: none;
     }
 }
